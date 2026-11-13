@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Book堂",
+    "slug": "book-lesson",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "booklesson",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "hk.booklesson.app",
+      "supportsTablet": true,
+      "icon": "./assets/images/icon.png"
+    },
+    "android": {
+      "package": "hk.booklesson.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E6B66",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F3EEE4",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ]
+  }
+}
